@@ -1,0 +1,18 @@
+<header>
+  <nav class="nav-bar">
+    <a href="/"><img src="/img/eventFinderLogo.png" alt="logo" class="logo"></a>
+    <div class="min-bar">
+      <a href="/">Events</a>
+      <a href="/events/about">About</a>
+      <% if(currId){ %>
+        <!-- conditional, if user IS logged in show: -->
+        <a href="/users">User Profile</a>
+        <button class="submit-btn"><a href="/users/logout">Log Out</a></button>
+        <% }else { %>
+          <!-- if user is NOT logged in show: -->
+          <a href="/users/login">Log In</a>
+          <button class="submit-btn"><a href="/users/new">Sign Up</a></button>
+          <% } %>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('../partials/head') %>
+
+<body>
+        <%- include('../partials/header') %>
+
+    <main>
+        <div class="form">
+            <div class="login-heading">
+                <h2>Sign Up as a New User</h2>
+            </div>
+            <form action="/users" class="actual-form" method="POST">
+                <div class="login-inputs">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password">
+                </div>
+                <div class="bottom-register">
+                    <button class="submit-btn" type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+
+</body>
+<%- include ('../partials/footer') %>
+
+</html>

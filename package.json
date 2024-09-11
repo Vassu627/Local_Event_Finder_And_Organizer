@@ -1,0 +1,32 @@
+{
+  "name": "event-finder",
+  "version": "1.0.0",
+  "description": "The out of the world app will let you find fun and upcoming events near your area.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ercheung3/event-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ercheung3/event-finder/issues"
+  },
+  "homepage": "https://github.com/ercheung3/event-finder#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "connect-mongodb-session": "^3.1.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.2.5",
+    "mongoose-session": "^0.0.4"
+  }
+}
