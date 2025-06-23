@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ercheung3/event-finder.git"
+    "url": "git+https://github.com/Vassu627/local-event-finder.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ercheung3/event-finder/issues"
+    "url": "https://github.com/Vassu627/local-event-finder/issues"
   },
-  "homepage": "https://github.com/ercheung3/event-finder#readme",
+  "homepage": "https://github.com/Vassu627/loca-event-finder#readme",
   "dependencies": {
     "axios": "^0.26.1",
     "bcryptjs": "^2.4.3",
